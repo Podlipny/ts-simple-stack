@@ -1,0 +1,36 @@
+{
+  "name": "ts-simple-stack",
+  "version": "1.0.0",
+  "description": "Simple TS base stack",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc --build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "keywords": [
+    "es",
+    "eslint",
+    "typescript",
+    "stack"
+  ],
+  "author": "ji.podlipny@gmail.com",
+  "license": "MIT"
+}

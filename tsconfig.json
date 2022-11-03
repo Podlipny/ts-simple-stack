@@ -1,0 +1,55 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+  ],
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es6"
+    ],
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "isolatedModules": true,
+    // "noEmit": true, only use with incremental without RimRaf
+    // "incremental": true, true, only use with incremental without RimRaf
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "jsx": "preserve",
+    "paths": {
+      "nested": ["/nested-folder/*"],
+      "enums": ["/enums/*"],
+      "utils": ["/utils/*"],
+      "constants": ["/constants/*"],
+      "types": ["/types/*"],
+      "assets": ["/assets/*"],
+      "styles": ["/styles/*"],
+      "public": ["/public/*"],
+      "server": ["/server/*"],
+    }
+  }
+}
